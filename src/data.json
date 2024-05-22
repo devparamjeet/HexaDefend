@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "firstName": "Dev",
+      "lastName": "Param",
+      "company": "HexaDefend",
+      "email": "abc@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "firstName": "Param",
+      "lastName": "apa",
+      "company": "jfija",
+      "email": "sdbnf",
+      "password": "njvs",
+      "id": 2
+    }
+  ]
+}

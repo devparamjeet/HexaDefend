@@ -1,0 +1,124 @@
+
+
+.signup_btn_outer:hover .text-decoration-none{
+    color: white !important;
+}
+.signup_btn_outer:hover{
+    background-color: #fa0404;
+    color: white;
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+.btn2{
+    background-color:#fa0404;
+}
+.btn2:hover{
+    border: 2px solid #fa0404;
+    color: #fa0404;
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+.signInBtn{
+    width: 90% !important;
+    margin-top: 2vh;
+}
+
+
+/* Forgot Password */
+
+.reset_pass_container{
+    min-height: 100vh;
+    width: 100%;
+    background: #000000;
+    top: 0;
+    left: 0;
+    position: absolute;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -2;
+    opacity: 0;
+}
+
+.reset_pass_container span{
+    cursor: pointer;
+}
+.input-pass{
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+    justify-content: space-between;
+}
+.input-pass input{
+    width: 95% !important;
+}
+.input-pass i{
+    cursor: pointer;
+}
+
+@media (max-width:851px) {
+    #signUpTab{
+        height: 40%;
+        
+    }
+    #signInMain{ 
+        height: 60%;
+    }
+    .signUpTab-item{
+        padding: 0;
+        font-size: 3.6vw !important;
+    }
+    .sign_account{
+        font-size: 3.5vw !important;
+    }
+    .signup_btn_outer{
+        /* margin-bottom: 5vw !important; */
+        /* margin-top: -3vw !important; */
+    }
+    .signup_btn_outer .text-decoration-none{
+        font-size: 2.4vw !important;
+    }
+    .signInFormContainer{
+        width: 100%;
+        height: 60%;
+        display: flex;
+        margin-top: -2vh;
+    }
+    .sign_in_heading{
+        margin-top: 2vh;
+    }
+    .signInBtn{
+        font-size: 2vw !important;
+    }
+    .signInForm{
+        margin: 0 auto; 
+    }
+}
+@media (max-width: 500px) {
+    .signUpTab-item{
+        font-size: 4.3vw !important;
+    }
+    .sign_account{
+        font-size: 4.2vw !important;
+    }
+    .signup_btn_outer .text-decoration-none{
+        font-size: 2.9vw !important;
+    }
+    .signInBtn{
+        font-size: 3vw !important;
+    }
+}
+@media (max-width:400px) {
+    .signUpTab-item{
+        font-size: 5.5vw !important;
+    }
+    .sign_account{
+        font-size: 5.4vw !important;
+    }
+    .signup_btn_outer .text-decoration-none{
+        font-size: 3.4vw !important;
+    }
+    .signInBtn{
+        font-size: 4vw !important;
+    }
+}

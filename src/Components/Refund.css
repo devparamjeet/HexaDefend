@@ -1,0 +1,56 @@
+
+.terms_list_container1 {
+    width: 100%;
+    color: #b8b8b8;
+}
+
+.terms_list_container1 li {
+    font-size: 1.5vw;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-style: italic;
+}
+.terms_list_container1 li p{
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 3.5vh;
+    color: #bebebe;
+    margin: 1.2vh 0 1vh 1vw;
+    font-style: normal;
+}
+
+
+@media (max-width: 1000px) {
+
+    .terms_list_container1 {
+        width: 80%;
+    }
+
+    .terms_list_container1 li {
+        font-size: 2.2vw;
+    }
+
+    .terms_list_container1 li p{
+        font-size: 2vw;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+
+    .terms_list_container1 {
+        width: 90%;
+    }
+
+    .terms_list_container1 li {
+        font-size: 3.1vw;
+    }
+
+    .terms_list_container1 li p{
+        font-size: 2.8vw;
+        line-height: 2.7vh;
+    }
+}

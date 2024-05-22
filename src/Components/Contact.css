@@ -1,0 +1,86 @@
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.login_btn{
+    background: transparent !important;
+    
+}
+.login_btn .text-decoration-none{
+    color: #fc0404 !important;
+}
+.login_btn:hover{
+    background: #fc0404 !important;
+    color: white !important;
+    transform: scale(0.9);
+    transition: transform 0.3s;
+    /* border: 2px solid #fff !important; */
+} 
+.login_btn:hover .text-decoration-none{
+    color: white !important;  
+
+}
+
+@media (max-width:876px) and (min-width:850px) {
+   
+    .send_btn{
+        width: 25vw !important;
+    }
+}
+
+@media (max-width:770px) {
+    .client_info form{
+        flex-direction: column;
+        gap: 2vh;
+    }
+   .client_info_basic{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+   }
+    .client_info{
+        width: 90vw;
+    }
+    
+    .contact_info{
+        width: 80vw !important;
+    }
+    .contact_info_inside{
+        margin: -1vh -6vw -7vh -6vw;
+    }
+    .contact_png{
+        width: 2.4vw !important;
+    }
+}
+@media (max-width:577px) {
+    .contact_png{
+        width: 1.4rem !important;
+    }
+    .contact_png_container{
+        width: 0 !important;
+    }
+}
+@media (max-width:533px){
+    .send_btn{
+        width: 40vw !important;
+    }
+}
+@media (max-width:330px){
+    .send_btn{
+        width: 60vw !important;
+    }
+    .contact_info{
+        font-size: 0.8rem !important;
+    }
+    .contact_detail{
+        font-size: 0.6rem !important;
+    }
+    .contact_info_margin{
+        margin-top: 0 !important;
+    }
+    .bg-transparent{
+        width: 62vw;
+    }
+}

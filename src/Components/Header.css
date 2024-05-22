@@ -1,0 +1,28 @@
+@media (max-width:1540px){
+    .login_btn{
+        width: 10vw !important;
+    }
+}
+@media (max-width:1220px){
+    .login_btn{
+        width: 15vw !important;
+    }
+}
+@media (max-width:815px){
+    .login_btn{
+        width: 20vw !important;
+    }
+}
+@media (max-width:620px){
+    .login_btn{
+        width: 25vw !important;
+    }
+}
+@media (max-width:500px){
+    .login_btn{
+        width: 40vw !important;
+    }
+}
+.nav-link:hover{
+    color: #fc0404 !important;
+}

@@ -1,0 +1,148 @@
+.privacy_main {
+    width: 100%;
+    min-height: 100vh;
+    font-family: productsans;
+    cursor: default;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#privacy_heading {
+    font-size: 2.8vw;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 4vh;
+    text-decoration: underline;
+    letter-spacing: 1.6px;
+}
+
+#policy_list_container {
+    width: 63%;
+}
+
+#policy_list_container li {
+    font-size: 1.5vw;
+    font-weight: 800;
+    /* color: #bcbcbc; */
+    color: #f2f2f2;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+#policy_list_container li p,
+#policy_list_container li ul,
+#policy_list_container li ul li,
+.outside_policy_list {
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 3.5vh;
+    color: #bebebe;
+    letter-spacing: 0.5px;
+    font-style: normal;
+}
+
+.outside_policy_list {
+    width: 70%;
+    margin: 1vh 0;
+}
+
+#policy_list_container li p {
+    margin: 1vh 0 1vh 1.3vw;
+}
+
+#policy_list_container li p a {
+    color: rgb(5, 190, 5);
+}
+
+#policy_list_container li ul {
+    margin: 2.5vh 0 2.5vh -1vw;
+}
+
+#policy_list_container li ul li {
+    margin-left: 2.7vw;
+    width: 80%;
+    padding: 0;
+    list-style-type: disc;
+}
+#policy_list_container li ul li:first-child{
+    margin-top: 1.5vh;
+}
+@media (max-width: 1000px) {
+    #privacy_heading {
+        font-size: 4vw;
+    }
+
+    #policy_list_container {
+        width: 83%;
+    }
+
+    #policy_list_container li {
+        font-size: 2.3vw;
+    }
+
+    #policy_list_container li p,
+    #policy_list_container li ul,
+    #policy_list_container li ul li,
+    .outside_policy_list {
+        font-size: 1.8vw;
+    }
+    #policy_list_container li p{
+        margin-left: 2vw;
+    }
+    .outside_policy_list {
+        width: 88%;
+        margin: 1vh 0;
+    }
+
+    #policy_list_container li ul {
+        margin-left: -2vw;
+    }
+
+    #policy_list_container li ul li {
+        width: 90%;
+        margin-left: 3.8vw;
+    }
+}
+
+@media (max-width: 500px) {
+    #privacy_heading {
+        font-size: 5.9vw;
+    }
+
+    #policy_list_container {
+        width: 90%;
+    }
+
+    #policy_list_container li {
+        font-size: 3.2vw;
+        letter-spacing: 1px;
+    }
+
+    #policy_list_container li p,
+    #policy_list_container li ul,
+    #policy_list_container li ul li,
+    .outside_policy_list {
+        font-size: 2.8vw;
+        line-height: 2.5vh;
+    }
+
+    .outside_policy_list {
+        width: 93%;
+    }
+
+    #policy_list_container li ul {
+        margin-left: -7vw;
+        padding: 0 0 0 8vw;
+        margin: 1.1vh 0 1.1vh -6vw;
+    }
+
+    #policy_list_container li ul li {
+        margin-left: 5vw;
+    }
+    #policy_list_container li ul li:first-child {
+        margin-top: 1vh;
+    }
+}

@@ -1,0 +1,20 @@
+.text-warning{
+    color: #fc0404 !important;
+}
+@media (min-width:990px) {
+    .commitments_img{
+        width: 50vw;
+    }
+}
+@media (max-width:580px) {
+    .commitments_text{
+        font-size: 3vw !important;
+    }
+    .commitments_text_heading{
+        font-size: 3.5vw !important;
+    }
+}
+.main_img_container{
+    display: flex;
+    justify-content: center;
+}

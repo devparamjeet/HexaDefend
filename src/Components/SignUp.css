@@ -1,0 +1,229 @@
+.signup_category {
+    width: 100%;
+    min-height: 90vh;
+}
+
+.category-box-title {
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vw;
+    font-weight: 800;
+    color: silver;
+    letter-spacing: 1px;
+}
+
+.category-box-outer {
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    gap: 5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-box {
+    width: 15vw;
+    min-height: 15vw;
+    background: rebeccapurple;
+    padding: 2vw;
+    background: rgba(39, 39, 39, 0.75);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(103, 103, 103, 0.31);
+    transition: cubic-bezier(0.19, 1, 0.22, 1).5s;
+}
+
+.category-box:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px #fc0404;
+}
+
+.category-box-image {
+    width: 100%;
+    height: 25vh;
+    font-size: 6vw;
+    color: #fff;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-box h4{
+    text-align: center;
+    color: #fff;
+}
+
+
+.signin_btn_outer:hover {
+    background-color: #fc0404;
+    transform: scale(0.9);
+    transition: transform 0.3s;
+}
+
+.signin_btn_outer:hover .text-decoration-none {
+    color: white !important;
+}
+
+.btn2 {
+    font-size: 1.1vw;
+    font-weight: 300;
+    width: 15vw;
+    height: 5vh;
+    margin: 0 auto 2vh;
+    color: white;
+    background: rgb(52, 52, 52);
+}
+
+.btn2:hover {
+    background: transparent;
+    color: white;
+    border: 2px solid rgb(52, 52, 52);
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+.otb_btn {
+    width: 40% !important;
+}
+
+.otp_verification {
+    color: white;
+    width: 25vw;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    min-height: 6vh;
+    outline: none;
+    font-size: 1.1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+}
+
+.signUpBtn {
+    font-size: 1vw;
+    color: white;
+    background: #fc0404;
+}
+
+.signUpBtn:hover {
+    background: transparent;
+    color: #fc0404;
+    border: 2px solid #fc0404;
+    transform: scale(1.08);
+    transition: transform 0.3s;
+}
+
+#form-value2 input:not(:last-child) {
+    border-radius: 0;
+}
+
+@media (max-width: 850px) {
+    .container_signin {
+        height: 100vh;
+    }
+
+    #signInTab {
+        width: 100%;
+        height: 20%;
+    }
+
+    #signUpMain {
+        width: 100%;
+        height: 80%;
+    }
+
+    .signInTab-item {
+        margin-top: -4vh;
+    }
+
+    #signInTab .justify-content-center {
+        padding: 0 !important;
+        margin-top: -2.6vh;
+    }
+
+    .signin_btn_outer .text-decoration-none {
+        font-size: 1.7vw !important;
+    }
+
+    #signUpMain .pt-3 {
+        padding: 0 !important;
+        /* margin-top: -15vh; */
+    }
+
+    #signUpMain .fs-6 {
+        margin-top: -1vh;
+    }
+
+    #form-value2 {
+        margin: 0 auto;
+    }
+
+    #form-value2 input {
+        width: 50%;
+    }
+
+    .btn2 {
+        font-size: 2vw
+    }
+
+    .otp_verification {
+        margin-top: -2vh;
+        width: 65%;
+    }
+
+    .signUpBtn {
+        width: 65%;
+        height: 5vh;
+        font-size: 2vw;
+    }
+}
+
+@media (max-width:500px) {
+    .signin_btn_outer .text-decoration-none {
+        font-size: 3.2vw !important;
+    }
+
+    #signInTab .justify-content-center {
+        margin-top: 0;
+    }
+
+    #form-value2 input {
+        width: 70%;
+    }
+
+    .btn2 {
+        font-size: 2.8vw
+    }
+
+    .signUpBtn {
+        font-size: 3.2vw;
+        width: 55% !important;
+    }
+
+    .otb_btn {
+        width: 55% !important;
+    }
+}
+
+@media (max-width:450px) {
+    .otp_verification {
+        width: 90%;
+    }
+
+    .btn2 {
+        font-size: 3.8vw
+    }
+
+    .signUpBtn {
+        font-size: 4vw;
+        width: 90%;
+    }
+}
