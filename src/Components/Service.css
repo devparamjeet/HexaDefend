@@ -1,0 +1,11 @@
+
+#service_desc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.icon_box_width{
+    width: 100vw;
+}

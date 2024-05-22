@@ -1,0 +1,74 @@
+@media (max-width:800px) {
+    .icon-box2{
+        width: 80vw;
+        margin-bottom: 2vh;
+    }
+    .about_img{
+        width: 42vw !important;
+    }
+}   
+@media (max-width:1000px) and (min-width:990px) {
+    .icon-box2{
+        width: 30vw;
+        margin-bottom: 2vh;
+    }
+    .about_img{
+        width: 25vw !important;
+    }
+}   
+@media (max-width:990px) {
+    .icon-box2{
+        width: 45vw;
+        margin-bottom: 2vh;
+    }
+    .about_img{
+        width: 33vw !important;
+    }
+}   
+@media (max-width:990px) and (min-width:840px) {
+    .about_commit{
+        margin-left: 20vw;
+    }
+}   
+@media (max-width:840px){
+    .about_commit{
+        margin-left: 25vw;
+    }
+}   
+@media (max-width:770px){
+    .icon-box2{
+        width: 70vw;
+        height: 50vh;
+        margin: 0 auto;
+    }
+    .about_img{
+        width: 58vw !important;
+        margin-top: 7vh !important;
+    }
+    
+}   
+@media (max-width:500px){
+    .icon-box2{
+        width: 90vw;
+    }
+    .icon-box2 h4{
+        font-size: 1.5rem !important;
+    }
+    .about_img{
+        width: 80vw !important;
+        margin-left: -1vw !important;
+        margin-top: 3vh;
+    }
+    .about_heading{
+        text-align: center;
+    }
+}   
+@media (max-width:358px){
+    .icon-box2{
+        margin: -3vh auto !important;
+    }
+    .fst-italic{
+        text-align: justify;
+        font-size: 1rem;
+    }
+}

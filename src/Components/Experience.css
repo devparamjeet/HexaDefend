@@ -1,0 +1,17 @@
+.text-warning{
+    color: #fc0404 !important;
+}
+@media (min-width:990px) {
+    .experience_img{
+        width: 50vw;
+    }
+}
+@media (max-width:580px) {
+    .experience_text{
+        font-size: 3vw !important;
+    }
+}
+.main_img_container{
+    display: flex;
+    justify-content: center;
+}

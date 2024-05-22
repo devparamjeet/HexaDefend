@@ -1,0 +1,28 @@
+
+
+@media (max-width:1250px) {
+  .service_img{
+    padding-top: 0.5vh !important;
+    width: 5vw !important;
+  }
+  .service_title{
+    padding-top: 2vh  !important;
+    font-size: 1.8vw !important;
+  }
+}
+
+@media (max-width:500px) {
+  .service_title{
+    padding-top: 1vh  !important;
+    font-size: 3.8vw !important;
+  }
+  .service_container{
+    height: 30vh;
+    width: 75vw;
+    margin-top: 4vh !important;
+  }
+  .service_img{
+    padding-top: 5vh !important;
+    width: 18vw !important;
+  }
+}

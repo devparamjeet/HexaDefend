@@ -1,0 +1,262 @@
+
+.container_sign {
+    width: 70vw;
+    height: 88vh;
+    background: conic-gradient(
+      from 0.2489turn at 47% 27%,
+      #7c0808,
+      7deg,
+      #0a0b0b,
+      326deg,
+      #3b3939
+    );
+    border: 1px solid #fc0404;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -20px -20px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  #signUpTab {
+    width: 30vw;
+    height: 70vh;
+    color: white;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #signUpTab h1 {
+    text-align: center;
+  }
+  #signUpTab h2 {
+    text-align: center;
+  }
+  .signUpTab-item {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  #signInMain {
+    width: 50vw;
+    height: 70vh;
+    color: rgb(255, 211, 33);
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .signInForm{
+    display: flex;
+    align-items: center;
+    padding: 3vh 0;
+  }
+
+  #signInMain form span{
+    color: #fc0404;
+    cursor: pointer;
+  }
+
+  #User-logo{
+    color: white;
+    font-size: 3.5rem;
+  }
+  #social-media {
+    margin-top: 0.4rem;
+  }
+  
+  #social-media a {
+    color: rgb(255, 211, 33);
+    padding: 0.4rem;
+    font-size: 1.3rem;
+  }
+  
+  form {
+    margin-top: 3rem;
+  }
+  /* form .show{
+    color: white;
+    display: inline;
+  } */
+  #form-value {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #form-value input:not(:last-child) {
+    color: white;
+    width: 25vw;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+    height: 6vh;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    font-size: 1.1rem;
+  }
+  ::placeholder{
+    color: rgb(104, 104, 104);
+  }
+  form a {
+    color: #fc0404;
+    text-decoration: none;
+  }
+  form a:hover {
+    text-decoration: underline;
+  }
+  .btn2 {
+    font-weight: 700;
+    background: rgb(255, 211, 33);
+    color: white;
+    width: 25vw;
+    height: 6vh;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 20px;
+  }
+  .btn2:hover{
+    background: transparent;
+    border: 2px solid rgb(255, 211, 33);
+    color: rgb(255, 211, 33);
+  }
+  
+  #form-value2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #form-value2 input:not(:last-child){
+    color: white;
+    width: 25vw;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    min-height: 6vh;
+    outline: none;
+    font-size: 1.1rem;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+  }
+  #signUpMain {
+    width: 50vw;
+    height: 70vh;
+    color: rgb(255, 211, 33);
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #signUpMain p{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+  #signInTab{
+    width: 30vw;
+    height: 70vh;
+    color: white;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #signInTab h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  
+  @media screen and (max-width: 850px) {
+    .logo-hexa{
+        width: 6vw !important; 
+      }
+      
+    #signInMain {
+      width: 100%;
+      height: 40vh;
+      border-radius: 0 0 30px 30px;
+      padding-bottom: 5vh;
+    }
+    #form-value input:not(:last-child){
+      width: 60vw;
+    }
+    .sign_account{
+      font-size: 5vw !important;
+    }
+    #signUpTab {
+      padding-top: 1rem;
+      width: 100%;
+      height: 30vh;
+      border-radius: 30px 30px 0 0;
+      font-size: 0.7rem;
+      line-height: 1rem;
+    }
+    #signUpTab h1 {
+      font-size: 2rem;
+    }
+    .container_sign {
+      width: 90vw;
+      height: 75vh;
+      flex-direction: column;
+    }
+    #form-value2 input:not(:last-child){
+      width: 60vw;
+    }
+    .btn2{
+      width: 60vw;
+      margin-bottom: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 450px) {
+    .logo-hexa{
+      width: 9vw !important; 
+  }
+    .btn2{
+      width: 80vw;
+      margin-bottom: 0;
+    }
+    #form-value input {
+      width: 75vw;
+    }
+    #form-value input:not(:last-child){
+      width: 75vw;
+    }
+    #signUpTab h1{
+      font-size: 1.4rem;
+    }
+    #signInTab h2{
+      margin-bottom: -0.4rem;
+      width: 60vw;
+    }
+    #signUpMain form{
+      margin-top: 0.4rem;
+    }
+    #signUpMain h1{
+      width: 80vw;
+      text-align: center;
+    }
+    #signUpMain p{
+      width: 80vw;
+    }
+    #form-value2 input:not(:last-child){
+      width: 80vw;
+    }
+  }
+  @media screen and (max-width: 600px){
+    #signInTab{
+      font-size: 0.8rem;
+    }
+  }

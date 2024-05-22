@@ -1,0 +1,17 @@
+.text-warning{
+    color: #fc0404 !important;
+}
+@media (min-width:990px) {
+    .history_img{
+        width: 50vw;
+    }
+}
+@media (max-width:580px) {
+    .history_text{
+        font-size: 3vw !important;
+    }
+}
+.main_img_container{
+    display: flex;
+    justify-content: center;
+}

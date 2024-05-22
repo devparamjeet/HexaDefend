@@ -1,0 +1,117 @@
+.img_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.read_more{
+    color: #fa0504;
+    /* border: 2px solid #fa0504; */
+}
+.read_more:hover{
+    background: #fa0504;
+}
+
+@media (max-width:1390px) {
+    .read_more{
+        width: 15vw !important;
+        height: 5.2vh !important;
+    }
+}
+@media (max-width:1200px) {
+    .img_box{
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:1000px) {
+    .web_test_container{
+        width: 80vw;
+    } 
+    .img_box{
+        width: 100vw !important;
+    }
+    .imgs{
+        height: 50vh;
+    }
+    .testing_content_container{
+        width: 100vw;
+    }
+    .testing_content_heading{
+        margin-top: -10vh;
+        text-align: center;
+    }
+    .testing_content{
+        text-align: center;
+    }
+    .testing_read_more{
+        text-align: center;
+    }
+}
+@media (max-width:817px) {
+    .read_more{
+        width: 20vw !important;
+        height: 6vh !important;
+    }
+}
+@media (max-width:614px) {
+    .testing_flex{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 2vh;
+    }
+    .testing_flex_rev{
+        display: flex;
+        gap: 2vh;
+    }
+    .imgs{
+        height: 70vw !important;
+        width: 70vw !important;
+    }
+    .read_more{
+        width: 35vw !important;
+    }
+    .web_img{
+        margin-left: 8vw !important;
+    }
+    .testing_content_heading{
+        width: 90vw;
+    }
+    .testing_content{
+        width: 90vw;
+    }
+    .testing_read_more{
+        width: 90vw !important;
+    }
+}
+@media (max-width: 430px) {
+    .imgs{
+        height: 30vh !important;
+        width: 70vw !important;
+    }
+    .testing_content_heading{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+    .testing_content{
+        font-size: 0.8rem !important;
+        text-align: justify;
+        width: 100vw;
+    }
+    .testing_read_more{
+        margin-bottom: 0;
+    }
+}
+@media (max-width: 353px) {
+    .read_more{
+        font-size: 0.8rem !important;
+    }
+}
+@media (max-width: 280px) {
+    .read_more{
+        font-size: 0.6rem !important;
+        font-weight: 600;
+        border: 1px solid #fa0504;
+    }
+}
